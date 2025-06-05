@@ -96,7 +96,7 @@
     padding:5% 15%;
     display: flex;
     gap:10%;
-    align-items: center;
+    align-items: stretch;
 
 }
 .request-ride__section{
@@ -110,15 +110,41 @@
 } */
 .request-ride__image{
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
 }
 .request-ride__text{
     font-size: 50px;
     font-weight: 700;
 }
 .request-ride__text--u{
-    letter-spacing: -2px;
+    letter-spacing: -4px;
 }
 .request-ride__text--u::first-letter{
     font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -4px;
+}
+.request-ride__form{
+    display: flex;
+    border: 2px solid limegreen;
+    flex-wrap: wrap;
+}
+.request-ride__form--input{
+    background-color: lightgray;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.request-ride__from--date-time{
+    width: 50%;
+    height: 50vh;
+}
+.request-ride__form--button{
+    background-color: black;
+    color: white;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
 }
