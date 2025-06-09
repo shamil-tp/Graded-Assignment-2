@@ -1,0 +1,53 @@
+.nav-bar{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.nav-bar__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+    background-color: gray;
+}
+.nav-bar__section--left{
+    width: 24%;
+}
+.nav-bar__section--right{
+    width: 22%;
+}
+.nav-bar__text{
+    font-size: 14px;
+    font-weight: 600;   
+}
+.nav-bar__item:not(.--signup){
+    padding: 10px;
+}
+.nav-bar__item:not(.--signup):hover{
+    background-color: rgb(27, 31, 34);
+    padding: 10px;
+
+    border-radius: 20px;  
+}
+.nav-bar__text--signup{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.nav-bar__text--signup:hover{
+    background-color: rgb(177, 177, 177);
+}
+.nav-bar__logo p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+.nav-bar__logo p::first-letter{
+    font-size: 26px;
+}

@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uber</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/ridebar.css">
+    <link rel="stylesheet" href="./css/requestRide.css">
+    <link rel="stylesheet" href="./css/suggestions.css">
+    <link rel="stylesheet" href="./css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/83c64717a1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="nav-bar">
@@ -39,19 +45,98 @@
     </div>
     <div class="request-ride">
         <div class="request-ride__section request-ride__section--left">
-            <p class="request-ride__text">Go anywhere with</p>
+            <div class="request-ride__heading">
+                <p class="request-ride__text">Go anywhere with</p>
             <p class="request-ride__text request-ride__text--u">uber</p>
+            </div>
             <form class="request-ride__form">
-                <input type="text" name="" id="pick-up" class="request-ride__form--input">
-                <input type="text" name="" id="drop" class="request-ride__form--input request-ride__form--date-time">
-                <input type="date" name="" id="date" class="request-ride__form--input request-ride__form--date-time">
-                <input type="text" name="" id="time" class="request-ride__form--input">
+                <input type="text" name="" id="pick-up" class="request-ride__form--input" placeholder="Pickup Location">
+                <input type="text" name="" id="drop" class="request-ride__form--input" placeholder="Drop Location">
+                <div class="request-ride__date-time">
+                    <input type="text" name="" id="date" class="request-ride__form--input request-ride__form--date-time" placeholder="Today">
+                    <i class="fa-solid fa-calendar"></i>
+                    <input type="text" name="" id="time" class="request-ride__form--input request-ride__form--date-time .request-ride__form--time" placeholder="Now">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
                 <button class="request-ride__form--button">See Prices</button>
+                <button class="request-ride__form--login">login to see your recent activity</button>
             </form>
         </div>
         <div class="request-ride__section request-ride__section--right">
             <img src="./images/travel-ilustra.webp" alt="" class="request-ride__image">
         </div>
+    </div>
+    <div class="suggestions">
+        <div class="suggestions__title">
+            <p class="suggestions__title--text">Suggestions</p>
+        </div>
+        <div class="suggestions__card">
+            <p class="suggestions__card--title">Ride</p>
+            <p class="suggestions__card--text">
+                Get convinient, affordable outstation <br>
+                 cabs anytime at your door
+            </p>
+            <button class="suggestions__card--button">Details</button>
+            <img src="./images/intercity.png" alt="intercity image" class="suggestions__card--image">
+        </div>
+        <div class="suggestions__card">
+            <p class="suggestions__card--title">Ride</p>
+            <p class="suggestions__card--text">
+                Get convinient, affordable outstation <br>
+                 cabs anytime at your door
+            </p>
+            <button class="suggestions__card--button">Details</button>
+            <img src="./images/intercity.png" alt="intercity image" class="suggestions__card--image">
+        </div>
+        <div class="suggestions__card">
+            <p class="suggestions__card--title">Ride</p>
+            <p class="suggestions__card--text">
+                Get convinient, affordable outstation <br>
+                 cabs anytime at your door
+            </p>
+            <button class="suggestions__card--button">Details</button>
+            <img src="./images/intercity.png" alt="intercity image" class="suggestions__card--image">
+        </div>
+        <div class="suggestions__card">
+            <p class="suggestions__card--title">Ride</p>
+            <p class="suggestions__card--text">
+                Get convinient, affordable outstation <br>
+                 cabs anytime at your door
+            </p>
+            <button class="suggestions__card--button">Details</button>
+            <img src="./images/intercity.png" alt="intercity image" class="suggestions__card--image">
+        </div>
+        <div class="suggestions__card">
+            <p class="suggestions__card--title">Ride</p>
+            <p class="suggestions__card--text">
+                Get convinient, affordable outstation <br>
+                 cabs anytime at your door
+            </p>
+            <button class="suggestions__card--button">Details</button>
+            <img src="./images/intercity.png" alt="intercity image" class="suggestions__card--image">
+        </div>
+    </div>
+    <div class="login">
+        <div class="login__section login__section--left">
+            <div class="login__heading">
+                <p class="login__heading--text">Login to see your recent</p>
+                <p class="login__heading--text">activity</p>
+            </div>
+            <div class="login__paragraph">
+                <p class="login__praragraph--text">View past trips, tailored suggestions, support resources, and more.</p>
+                <!-- <p class="login__praragraph--text"></p> -->
+            </div>
+            <div class="login__form">
+                <button class="login__form--button">Login to your account</button>
+                <button class="login__form--signup">Don't have an Uber account? signup</button>
+            </div>
+        </div>
+        <div class="login__section login__section--right">
+            <img src="./images/Airport-Fall.webp" alt="Airport-Fall" class="login__section--image">
+        </div>
+    </div>
+    <div class="plan-for-later">
+        
     </div>
 </body>
 </html>

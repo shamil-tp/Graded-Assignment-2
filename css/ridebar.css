@@ -1,0 +1,32 @@
+.ride-bar{
+    border: 2px solid rgba(255, 0, 0, 0);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.ride-bar__section{
+    border: 2px solid rgba(0, 0, 255, 0);
+}
+.ride-bar__text{
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.ride-bar__ride{
+    font-size: 21px;
+    font-weight:700;
+}
+.ride-bar__section--right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    gap:15px;
+    font-size: 12px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.ride-bar__text:hover{
+    color: black;
+}
