@@ -68,14 +68,14 @@
     width: calc(100%/2 - 5px);
     padding: 0 0 0 10%;
 }
-.fa-calendar{
+.request-ride__date-time .fa-calendar{
     position: absolute;
     top:50%;
     left: 3%;
     translate: 0 -50%;
     font-size: 20px;
 }
-.fa-clock{
+.request-ride__date-time .fa-clock{
     position: absolute;
     top:50%;
     left: 56%;

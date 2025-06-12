@@ -1,5 +1,133 @@
 .plan-for-later{
     width: 100%;
-    height: 65vh;
-    
+    height: 60vh;
+    border:2px solid blue;
+    padding:2% 15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: start;
+}
+.plan-for-later__left{
+    width: calc(65% - 10px);
+    height: 100%;
+    border: 2px solid red;
+}
+.plan-for-later__right{
+    width: calc(35% - 10px);
+    border: 1px solid rgb(245, 240, 240);
+    height: 80%;
+    border-radius: 12px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}
+.plan-for-later__benefits{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1% 1% 1% 0;
+
+}
+.plan-for-later__benefits--icon{
+    width: 10%;
+    border: 2px solid rgba(137, 43, 226, 0);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-for-later__benefits--text{
+    width: 88%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid rgb(246, 242, 242);
+    padding:0 0 0 6%;
+}
+.plan-for-later__benefits--terms{
+    font-size: 18px;
+    color: rgb(179, 180, 181);
+    width: max-content;
+    border: none;
+    border-bottom: 1px dotted rgb(209, 207, 207);    
+}
+.plan-for-later__left{
+    position: relative;
+    background-color: rgb(68, 218, 237);
+    border-radius: 15px;
+    padding: 5% 0 3% 3%;
+}
+.plan-for-later__left--image{
+    width: 43%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.plan-for-later__left--content{
+    width: 55%;
+    border: 2px solid red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.plan-for-later__left--title{
+    font-size: 32px;
+    font-weight: 700;
+    width: 100%;
+}
+.plan-for-later__form--heading{
+    font-size: 16px;
+    font-weight: 600;
+}
+.plan-for-later__form--elements{
+    border: 2px solid seashell;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.plan-for-later__form--input-container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.plan-for-later__form--input{
+    width: calc(100% / 2 - 5px);
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 0 0 10%;
+}
+.plan-for-later__form--input::placeholder{
+    font-weight: 600;
+}
+.plan-for-later__form--input-container .fa-calendar{
+    position: absolute;
+    top:50%;
+    left: 3%;
+    translate: 0 -50%;
+    font-size: 20px;
+}
+.plan-for-later__form--input-container .fa-clock{
+    position: absolute;
+    top:50%;
+    left: 56%;
+    translate: -50% -50%;
+    font-size: 20px;
+}
+.plan-for-later__form--button{
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
 }

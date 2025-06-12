@@ -1,0 +1,10 @@
+.apps{
+    width: 100%;
+    background-color: rgb(209, 216, 223);
+    height: 50vh;
+    border:2px solid blue;
+    padding:8% 12%;
+    display: flex;
+    gap:10%;
+    align-items: stretch;
+}
